@@ -329,7 +329,7 @@ body {
 
 /* Home Page Sections */
 .home-section {
-  min-height: 100vh;
+  min-height: calc(100vh - 14rem);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -350,6 +350,9 @@ body {
   }
   .page-wrapper {
     padding: 6rem 1.5rem;
+  }
+  .home-section {
+    min-height: calc(100vh - 12rem);
   }
   .glass-panel {
     padding: 2rem;
